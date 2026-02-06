@@ -1,0 +1,29 @@
+{
+  "name": "xml-to-pdf-batch-conversion",
+  "version": "1.0.0",
+  "description": "Batch converter for XML/HTML book files to PDF format for Mendeley library import",
+  "main": "scripts/convert_to_pdf.js",
+  "scripts": {
+    "convert": "node scripts/convert_to_pdf.js",
+    "analyze": "python scripts/analyze_pdfs.py"
+  },
+  "keywords": [
+    "pdf",
+    "conversion",
+    "xml",
+    "html",
+    "mendeley",
+    "batch-processing",
+    "playwright"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.41.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}

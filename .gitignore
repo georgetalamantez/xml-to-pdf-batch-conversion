@@ -1,0 +1,54 @@
+# .gitignore for XML to PDF Batch Conversion Project
+
+# Environment variables
+.env
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+venv/
+ENV/
+
+# Playwright
+playwright-report/
+test-results/
+.playwright/
+
+# Logs
+*.log
+logs/
+conversion-log.json
+debug_output.txt
+
+# Output (optional - uncomment if you don't want to track PDFs)
+# *.pdf
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary files
+*.tmp
+temp/
+tmp/
+
+# Mendeley data
+mendeley_import_data.json
